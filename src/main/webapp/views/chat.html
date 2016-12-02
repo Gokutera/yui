@@ -1,0 +1,17 @@
+ <div>
+    <div>
+        <ul class="chat-thread">
+            <li class="right-chat">聊天区</li>
+            <li class="left-chat">测试内容</li>
+            <li ng-repeat="item in texts track by $index" ng-class="{'right-chat':item.type=='send','left-chat':item.type=='get'}">{{item.text}}</li>
+        </ul>
+        <div style="text-align:center;">
+            <input ng-model="text" placeholder="请输入内容"/>
+            <button ng-click="send()">发送</button>
+        </div>
+    </div>
+</div>
+<div style="position:absolute;right:0px;bottom:0px;">
+    <span style="vertical-align:top;padding: 8px 20px 8px 10px;background-color: rgba(0, 0, 0, 0.2);border-radius: 10px;">{{backText}}</span>
+    <img src="/pic/yui.png"/>
+</div>

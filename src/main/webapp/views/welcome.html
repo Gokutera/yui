@@ -1,0 +1,32 @@
+<h4>这里是主页{{name}}</h4>
+
+<a href="#/chat">开始聊天</a>
+<input ng-model="id" placeholder="请输入id">
+<button ng-click="getName()">获取用户真名</button>
+<div>
+    <input ng-model="id" placeholder="请输入id">
+    <input ng-model="name" placeholder="请输入用户名">
+    <input ng-model="passwd" placeholder="请输入密码">
+    <input ng-model="realname" placeholder="请输入真名">
+    <button ng-click="insert()">提交信息</button>
+</div>
+
+<div>
+    <input ng-model="adminUserId" placeholder="请输入管理账号">
+    <input ng-model="adminPasswd" type="password" placeholder="请输入管理密码">
+    <input ng-model="adminName" placeholder="请输入管理员名字">
+    <button ng-click="register()">注册管理员</button>
+</div>
+
+<form name="loginForm" novalidate>
+    <label>Username:</label>
+    <input type="text" id="username" ng-model="logindetails.username">
+    <label>Password:</label>
+    <input type="password" id="password" ng-model="logindetails.password">
+    <button type="submit" ng-click="login(logindetails)">Login</button>
+</form>
+
+<div>
+    <button ng-click="getCookies()">获取cookie</button>
+    <button ng-click="deleteCookies()">删除cookie</button>
+</div>
