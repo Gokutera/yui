@@ -1,6 +1,6 @@
-package com.yoi.controller;
+package com.yui.controller;
 
-import com.yoi.util.DataUtil;
+import com.yui.util.DataUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

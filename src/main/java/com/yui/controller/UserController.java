@@ -1,7 +1,7 @@
-package com.yoi.controller;
+package com.yui.controller;
 
-import com.yoi.util.DataUtil;
-import com.yoi.util.GsonUtil;
+import com.yui.util.DataUtil;
+import com.yui.util.GsonUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

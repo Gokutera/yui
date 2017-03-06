@@ -1,4 +1,4 @@
-package com.yoi.util;
+package com.yui.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

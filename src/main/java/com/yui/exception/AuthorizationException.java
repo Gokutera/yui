@@ -1,4 +1,4 @@
-package com.yoi.exception;
+package com.yui.exception;
 
 /**
  * Created by amosli on 16/4/27.

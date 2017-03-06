@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="yoi:war exploded">
-    <output-path>$PROJECT_DIR$/target/yoi</output-path>
+    <output-path>$PROJECT_DIR$/target/yui</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -21,10 +21,12 @@
           <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.5.0" />
           <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
           <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.7" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.3.1" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/yoi/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/yui/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="yoi/web/Web" />
     </root>
