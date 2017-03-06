@@ -8,7 +8,7 @@ yoi.controller('mainController', function($scope, userService, $cookieStore, loc
             id:$scope.id
         }
         userService.post("/getName", param).success(function(data){
-            $scope.name = data;
+            $scope.name = data.name;
         });
     }
 

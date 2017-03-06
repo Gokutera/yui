@@ -32,19 +32,19 @@
 
     <mvc:default-servlet-handler/>
 
-    <mvc:interceptors>
-        <mvc:interceptor>
-            <mvc:mapping path="/*"/>
-            <bean class="com.yui.interceptor.LoginInterceptor">
-                <property name="excludedUrl">
-                    <list>
-                        <value>.*.html</value>
-                        <value>.*.jsp</value>
-                        <value>/home</value>
-                        <value>/welcome</value>
-                    </list>
-                </property>
-            </bean>
-        </mvc:interceptor>
-    </mvc:interceptors>
+    <!--<mvc:interceptors>-->
+        <!--<mvc:interceptor>-->
+            <!--<mvc:mapping path="/*"/>-->
+            <!--<bean class="com.yui.interceptor.LoginInterceptor">-->
+                <!--<property name="excludedUrl">-->
+                    <!--<list>-->
+                        <!--<value>.*.html</value>-->
+                        <!--<value>.*.jsp</value>-->
+                        <!--<value>/home</value>-->
+                        <!--<value>/welcome</value>-->
+                    <!--</list>-->
+                <!--</property>-->
+            <!--</bean>-->
+        <!--</mvc:interceptor>-->
+    <!--</mvc:interceptors>-->
 </beans>
